@@ -1,0 +1,23 @@
+
+{
+    "vaasJHipsterUserPortalApp": {
+        "ethAccount" : {
+            "home": {
+                "title": "Eth Accounts",
+                "createLabel": "Create a new Eth Account",
+                "createOrEditLabel": "Create or edit a Eth Account"
+            },
+            "created": "A new Eth Account is created with identifier {{ param }}",
+            "updated": "A Eth Account is updated with identifier {{ param }}",
+            "deleted": "A Eth Account is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Eth Account {{ id }}?"
+            },
+            "detail": {
+                "title": "Eth Account"
+            },
+            "address": "Address",
+            "item": "Item"
+        }
+    }
+}

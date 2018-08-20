@@ -1,18 +1,13 @@
-entity User {
-  id Integer,
-  name String,
-  genre String
-}
-
 entity EthAccount {
   address String
 }
-
-relationship OneToMany {
-  User{walletAddress} to EthAccount
+entity Item {
+  name String,
+  uniqueID String,
+  brand String,
+  chainID String
 }
 
-
-#fontSize: 18
-#spacing: 150
-#gutter: 100
+relationship OneToMany {
+  EthAccount{item} to Item{owner}
+}
