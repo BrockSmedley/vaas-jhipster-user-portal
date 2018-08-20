@@ -1,0 +1,18 @@
+entity User {
+  id Integer,
+  name String,
+  genre String
+}
+
+entity EthAccount {
+  address String
+}
+
+relationship OneToMany {
+  User{walletAddress} to EthAccount
+}
+
+
+#fontSize: 18
+#spacing: 150
+#gutter: 100
